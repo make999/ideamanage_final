@@ -1,0 +1,1074 @@
+ru:
+  common:
+    confirm_discard_changes: Отменить изменения?
+    time:
+      am: дп
+      pm: пп
+    closing_in: 'Закрывается {{time}}'
+    closed_ago: 'Закрыто {{time}}'
+    volume: Громкость
+    notification_volume: Громкость оповещений
+    group: Группа
+    groups: Группы
+    privacy:
+      open: Открыто
+      closed: Закрыто
+      private: Приватная
+      secret: Секретная
+      public: Публичная
+      private: Приватная
+    selected: Выбранные
+    date_range:
+      today: Сегодня
+      yesterday: Вчера
+      thisweek: Эта неделя
+      thismonth: Этот месяц
+      older: Ранее
+    models:
+      proposal: Предложение
+    action:
+      back: Назад
+      close: Закрыть
+      save: Сохранить
+      save_changes: Сохранить изменения
+      update_settings: Обновить настройки
+      reply: Ответить
+      edit: Редактировать
+      like: Нравится
+      unlike: Не нравится
+      upodate: Обновить
+      cancel: Отмена
+      show_more: Показать больше
+      view_all: Показать все
+      new_thread: Новая тема
+      add_subgroup: Добавить подгруппу
+      loading: Загрузка
+      translate: Перевести
+      translated: Переведено
+      upload: Загрузить
+      uploading: Загружается
+    formatting_help:
+      label: Форматирование справки
+      title: Узнать как использовать Markdown для форматирования текста в Loomio     
+  error_page:
+    forbidden: У вас недостаточно прав
+    page_not_found: Не найдено. Возможно было удалено или перемещено.
+    internal_server_error: 'Извините, что-то не так. Попробуйте снова.'
+  start_proposal_card:
+    title: Создать голосование
+  proposal_outcome_panel:
+    heading: Итог
+    set_outcome_hint: Использовать это пространство, чтобы уведомить всех о результатах Предложения
+    set_outcome_btn: Подвести итоги голосования
+    edit_outcome_link: Редактировать итоги голосования
+  proposal_outcome_form:
+    set_outcome: 'Подвести итоги голосования '
+    update_outcome: Обновить итоги голосования
+    outcome_label: Результат голосования
+    outcome_placeholder: Сообщить всем результат голосования
+    publish_outcome: Опубликовать результат
+    messages:
+      created: Результат опубликован
+      updated: Результат обновлен
+  previous_proposals_card:
+    heading: Предыдущие голосования
+  proposal_collapsed:
+    expand: Расширить
+  volume_levels:
+    loud: Заметный
+    normal: Нормальный
+    quiet: Ограниченный
+    mute: Заглушен
+  change_volume_from:
+    loud_label: Вся активность
+    normal_label: Важная активность
+    quiet_label: Нет сообщений электронной почты
+    discussion:
+      title: Настройки электронной почты для {{title}}
+      loud_description: Вы получите уведомления по электронной почте в случае активности в этой Задаче
+      normal_description: Вы получите уведомления по электронной почте если будет создано, закрыто Предложение, либо будет известны результаты по Предложениям
+      quiet_description: Вы не будете получать уведомления по электронной почте в случае активности в этой Задаче
+      apply_to_all: Применить эти настройки ко всем Задачам в этой группе
+      messages:
+        loud: Вы будете получать уведомления по электронной почте в случае активности в этой Задаче
+        normal: Вы будете получать уведомления по электронной почте новости о Предложениях в этой Задаче
+        quiet: Вы не будете получать уведомления по электронной почте в случае активности в этой Задаче
+    membership:
+      title: Настройки электронной почты для {{title}}
+      loud_description: Вы будете получать уведомления по электронной почте в случае активности в этой Группе
+      normal_description: Вы будете получать уведомления по электронной почте о новых Задачах и Предложениях в этой Группе
+      quiet_description: Вы не будете получать уведомления по электронной почте в случае активности в этой Группе
+      apply_to_all:
+      messages:
+        loud: Вы будете получать уведомления о ВСЕЙ активности в этой Группе по электронной почте
+        normal: Вы будете получать уведомления о Предложениях этой Группы по электронной почте
+        quiet: Вы не будете получать уведомления по электронной почте в случае активности в этой Группе
+    all_groups:
+      messages:
+        loud: Вы будете получать уведомления о ВСЕЙ активности в этой Группе по электронной почте
+        normal: Вы будете получать уведомления о Предложениях этой Группы по электронной почте
+        quiet: Вы не будете получать уведомления по электронной почте в случае активности в этой Группе
+    user:
+      title: Настройки электронной почты для новых Групп
+      loud_description: Вы будете получать уведомления если будет активность в новых группах в которых вы состоите
+      normal_description: Вы будете получать уведомления о новых Задачах и Предложениях в новых группах в которых вы состоите
+      quiet_description: Вы не будете получатьо оповещения об активности в новых Группах? в которых Вы состоите
+      apply_to_all: Применить данные настройки для всех моих Групп
+      messages:
+        loud: Вы будете получать уведомления о ВСЕЙ активности в новых Группах по электронной почте
+        normal: Вы будете получать уведомления о новых Задачах и Предложениях во всех Группах по электронной почте
+        quiet: Вы не будете получать уведомления по электронной почте в случае активности во всех Группах
+
+  mute_explanation_modal:
+    mute_thread: Выключить уведомления для Задачи
+    body: |
+      <p>Если Вы выключите уведомления <strong> Вы не будете уведомлены о Предложениях</strong>, или любоц другой активности в этой Задаче, если только кто-то не упомянет вас в ней.</p>
+      <p>Отключенные Задачи будут стрыты от Недавних Задач и Непрочитанных страниц. Чтобы найти Отключенные Задачи, зайдите на страницу Недавних Задач и выберите "Отключенные" в меню "Фильтровать Задачи":</p>
+
+  inbox:
+    clear: Очистить
+    latest: Последний
+    unread: Непрочитанные
+    closing_in: Закрывается
+  session_form:
+    email_label: Email
+    password_label: 'Пароль:'
+    remember_me: Запомнить меня
+    sign_in: Логин
+  comment_form:
+    aria_label: 'Добавить комментарий '
+    attachments:
+      aria_label: Прикрепить файл
+      remove_attachment: Удалить вложение
+    messages:
+    edit_comment: Редактировать коментарий
+    delete_comment: Удалить комментарий
+    cancel_reply: Отметить ответ
+    confirm_delete_message: Вы уверены что хотите удалить комментарий?
+    confirm_delete: 'Да, я согласен'
+    in_reply_to: В ответ на <strong>{{name}}</strong>
+    submit_button:
+      label: Запись
+    private_privacy_notice: Ваш комментарий будет виден только членам Группы {{groupName}}
+    public_privacy_notice: Ваш комментарий будет виден всем
+
+  navbar:
+    recent: Недавние
+    unread: Непрочитанные
+    groups: Группы
+    recent_title: Панель
+    unread_title: Показать непросмотренные действия
+    groups_title: Показать мои группы
+    start_thread: Добавить новую задачу
+    notifications: Уведомления
+    user_actions: Действия пользователя
+    user_options:
+      label: Параметры пользователя
+      contact_us: Наши контакты
+      new_thread: Новая задача
+      new_group: Новая группа
+      profile: Профиль
+      email_settings: Настройки email
+      help: Помощь
+      sign_out: Выйти
+    search:
+      no_results: Задач не найдено
+      close: Закрыть панель поиска
+      placeholder: Поиск
+      loading: Загрузка
+      discussions: Обсуждения
+      proposals: Идеи
+      comments: Комментарии
+    sign_in: Войти
+
+  start_menu:
+    title: Командная кнопка
+    start_group:  Начать Группу
+    start_subgroup: Начать ПодГруппу
+    start_thread: Начать Задачу
+    invite_people: Пригласить людей
+  notifications:
+    header: Уведомления
+    new_discussion: "<strong>{{name}}</strong> начал обсуждение <strong>{{discussion}}</strong>"
+    new_motion: "<strong>{{name}}</strong> создал Предыдущие <strong>{{proposal}}</strong>"
+    motion_closed: "Предложение закрыто: <strong>{{proposal}}</strong>"
+    publish_outcome: "Опубликовать итоги"
+    motion_closed_by_user: "<strong>{{name}}</strong> закрыл Предложение <strong>{{proposal}}</strong>"
+    motion_closed_by_expiry: "Предложение было закрыто <strong>{{proposal}}</strong>"
+    new_vote: "<strong>{{name}}</strong> {{position}} на Предложение <strong>{{proposal}}</strong>"
+    new_comment: "<strong>{{name}}</strong> прокомментировал <strong>{{discussion}}</strong>"
+    comment_replied_to: "<strong>{{name}}</strong> ответил на Ваш комментарий в <strong>{{discussion}}</strong>"
+    comment_liked: "<strong>{{name}}</strong> понравился Ваш комментарий в <strong>{{discussion}}</strong>"
+    user_mentioned: "<strong>{{name}}</strong> упомянул Вас в <strong>{{title}}</strong>"
+    membership_requested: "<strong>{{name}}</strong> запросил участие в <strong>{{group}}</strong>"
+    membership_request_approved: '<strong>{{name}}</strong> одобрил ваш запрос в <strong>{{group}}</strong>'
+    user_added_to_group: "<strong>{{name}}</strong> добавил(а) вас в Группу <strong>{{group}}</strong>"
+    user_added_to_group_no_inviter: "Вы были добавлены в Группу <strong>{{group}}</strong>"
+    motion_closing_soon: "Предложение скоро закрывается: <strong>{{proposal}}</strong>"
+    motion_outcome_created: "<strong>{{name}}</strong> опубликовал итоги Предложения <strong>{{proposal}}</strong>"
+    motion_outcome_updated: "<strong>{{name}}</strong> обновил итоги Предложения <strong>{{proposal}}</strong>"
+    invitation_accepted: "<strong>{{name}}</strong> принял Ваше приглашение о вступлении <strong>{{group}}</strong>"
+    new_coordinator: "<strong>{{name}}</strong> сделал Вас координатором <strong>{{group}}</strong>"
+
+  position_buttons_panel:
+    heading: Выразить свое мнение
+  vote_form:
+    heading: Выразить свое мнение
+    i_agree: Я согласен
+    i_agree_details: Всецело поддерживаю
+    i_abstain: Я воздерживаюсь
+    i_abstain_details: 'Я был бы рад, если группа примет решение без меня.'
+    i_disagree: Я не соласен
+    i_disagree_details: Я думаю что есть более подходящее решение
+    i_block: Я блокирую
+    i_block_details: Я категорически против данного предложения
+    submit_position: Высказать позицию
+    change_position: Изменить позицию
+    select_position: Выбрать позицию
+    statement_placeholder: Поделитесь своим мнением с группой
+    messages:
+      created: Голос добавлен
+  proposal_positions_panel:
+    heading: Позиция
+    no_votes_yet: Еще никто не проголосовал по этому предложению
+    change_your_vote: Изменить свое мнение
+  undecided_panel:
+    aria_label: Пользователи не принявшие решение
+    show_undecided: Показать пользователей не принявшие решение
+    hide_undecided: Скрыть пользователей не принявшие решение
+
+  proposal_pie_chart:
+    participation_statement: '{{percentage}}% пользователей которые выразили свое мнение ({{number}}/{{total}})'
+
+  close_proposal_form:
+    close_proposal: Закрыть предложение
+    helptext: Вы уверены что хотите закрыть это Предложение сейчас?
+    close_proposal_submit: 'Да, закрыть голосование'
+    messages:
+      success: Голосование закрыто
+  extend_proposal_form:
+    title: 'Изменить время закрытия'
+    success: 'Обновлено время закрытия Предложения'
+    submit: 'Обновить время закрытия Предложения'
+
+  proposal_form:
+    messages:
+      created: 'Предложение открыто'
+      updated: 'Предложение обновлено'
+    start_proposal: Создать Предложение
+    start_a_proposal: Создать Предложение
+    edit_proposal: Изменить Предложение
+    what_does_a_proposal_do: 'Предложения позволяют узнать что другие думают об определенном действии или идее.'
+    editing_title_and_description_forbidden: 'Вы не можете поменять название или описани Предложения после того как люди проголосовали Если поменялись детали, пожалуйста, закройте данное Предложение и начните новое'
+    title_placeholder: 'Например: Полететь на Луну'
+    title_label: Название
+    closes_at_label: 'Закрывается'
+    closes: 'Закрывается'
+    details_label: Детали
+    details_placeholder: "Пожалуйста предоставьте достаточно информации, чтобы люди могли формировать мнение о вопросе"
+
+  discussion_record:
+    created: 'Задача {{title}} была успешно создана в {{groupName}}'
+    updated: 'Сохранить изменения в {{title}}'
+
+  discussion_form:
+    messages:
+      created: 'Задача создана'
+      updated: 'Задача обновлена'
+    new_discussion_title: 'Начать новую Задачу'
+    edit_discussion_title: 'Изменить Задачу'
+    discussion_helptext: Задача создана для того чтобы все могли обсуждать вопросы и находить ответы.
+    group_label: Группа
+    group_placeholder: Выбрать группу
+    title_label: Название
+    title_placeholder: Какую тему вы бы хотели обсудить?
+    context_label: Описание
+    context_placeholder: Предоставьте достаточно информации для группы для плодотворного обсуждения
+    privacy_label: Конфиденциальность
+    privacy_public: 'Все могут видеть Задачу. Только члены данной Группы могут учавствовать в обсуждении'
+    privacy_private: 'Эта Задача будет видна лишь членам Группы {{group}}.'
+    privacy_organisation: 'Эта Задача будет видна членам {{parent}} и членам {{group}}.'
+    new_discussion_submit: 'Создать Задачу'
+    edit_discussion_submit: 'Обновить Задачу'
+
+  proposal_expanded:
+    collapse: Свернуть
+    current_votes: Текущие голоса
+    started_by: 'Создано <strong>{{name}}</strong>'
+    only_voter_is_you: 'Еще никто не проголосовал'
+    extend_proposal: 'Изменить время закрытия'
+    edit_proposal: 'Изменить Предложение'
+    close_proposal: Закрыть предложение
+    closed_badge: Закрыто
+
+  proposal_position_yes: 'Согласен'
+  proposal_position_abstain: 'Воздерживаюсь'
+  proposal_position_no: 'Не согласен'
+  proposal_position_block: 'Блокирую'
+
+  legacy_trial_expired_modal:
+    heading: "Спасибо за использование Loomio!"
+    body: |
+      <p> Мы очень благодарны за поддержку в этом году, и мы рады сделать Loomio еще лучше в следующем!</p>
+      <p>Насколько Loomio полезен для Вас? Мы недавно выпустили ценовые планы, и мы просим пользователей выбрать подходящий для них план.</p>
+    submit: "Показать планы"
+
+  group_welcome_modal:
+    heading: "Добро пожаловать в нашу новую Группу"
+    first_step: "Вы <strong>coordinator</strong> этой Группы, это как быть Хозяином. Посмотрите видео, и загляните в примеры Задач."
+    second_step: "И когда вы готовы, <strong>invite people</strong> ."
+    ok_got_it: 'ОК! Понял(а)!'
+
+  group_cover_modal:
+    heading: 'Новое фото'
+    upload_link: 'Загрузить новое фото'
+    helptext: 'В поисках вдохновения? Загляните сюда <a href="https://unsplash.com/">Unsplash</a>'
+    image_size_helptext: 'Идеальный размер изображения - 1400 x 320px'
+    upload_success: 'Фото успешно обновлено'
+
+  group_logo_modal:
+    heading: 'Новый логотип Группы'
+    upload_link: 'Загрузить новый логотип Группы'
+    image_size_helptext: 'Идеальный размер изображения 100 x 100px'
+    upload_success: 'Логотип успешно обновлен'
+
+  join_group_button:
+    join_group: Вступить в группу
+    ask_to_join_group: Подать заявку на вступление
+    messages:
+      joined_group: 'Теперь вы член Группы {{group}}'
+
+  membership_request_form:
+    heading: Подать заявку на вступление
+    name_label: Имя
+    email_label: Email
+    introduction_label: Представьтесь
+    submit_button: Подать заявку на вступление
+    messages:
+      membership_requested: 'Вы подали запрос на вступление в Группу {{group}}'
+  revision_history_modal:
+    thread_header: История модификафии контекста Задачи
+    comment_header: История модификафии изменений комментариев
+    started_by: 'Создал <strong>{{name}}</strong>'
+    edited_by: 'Изменил <strong>{{name}}</strong>'
+    posted: Опубликовал
+
+  group_page:
+    thread_list:
+      empty:
+        no_discussions_in_group: "В этой Группе еще не создано ни одной Задачи"
+        no_discussions_matching_filters_html: "Нет ни одной Задачи совпадающей с параметрами фильтра <a href='%{link}'>Clear filters</a>."
+        no_public_discussions: " В этой Группе нет публичных Задач"
+        discussions_are_private: "Все Задачи в этой Группе - приватные"
+        join_group: "Чтобы увидеть приватные Задачи, необходимо вступить в эту Группу"
+        request_membership: "Чтобы увидеть приватные Задачи, запросите доступ в эту Группу"
+        membership_is_invitation_only: "Чтобы вступить в эту Группу Вас в нее должен пригласить член Группы"
+        membership_is_invitation_by_admin_only: "Чтобы вступить в эту Группу Вас должен пригласить координатор Группы"
+
+    messages:
+      privacy:
+        members: 'Эта Группа видна только ее участникам'
+        parent_members: 'Эта Группа теперь видна только участникам Вашей организации'
+        public: 'Эта Группа видна всем'
+      leave_group_success: 'Вы покинули эту Группу'
+      archive_group_success: 'Эта Группа была деактивирована'
+    group_logo: 'Логотип Группы'
+    new_photo: 'Новое фото'
+    description: 'Описание Группы'
+    description_placeholder: 'Координаторы Группы могут использовать это пространство для описания целей Группы, чтобы все участники Группы понимали ее предназначение'
+    discussions: Обсуждения
+    discussions_placeholder: 'Задача создана для того чтобы все могли обсуждать вопросы и находить на них ответы'
+    members: 'Участники'
+    members_placeholder: 'Вы один в этой Группе. Пригласите людей к участию!'
+    member_options: Настройки участников
+    all_members: Все участники ({{count}})
+    subgroups: 'ПодГруппы'
+    subgroups_placeholder: 'ПодГруппы позволяют разбить Вашу Группу на разные команды'
+    invite_people: Пригласите людей
+    visibility_level: Видимость
+    options_label: Опции
+    options:
+      label: Опции
+      edit_group: 'Изменить настройки Группы'
+      manage_members: 'Управлять участниками'
+      add_subgroup: 'Добавить подгруппу'
+      manage_subscription: 'Управлять подпиской в Группу'
+      email_settings: 'Настройки электронной почты'
+      leave_group: 'Покинуть Группу'
+      deactivate_group: 'Деактивировать Группу'
+    deactivate_group:
+      title: 'Деактивировать Группу'
+      question: 'Вы уверены что хотите деактивировать Группу?'
+      submit: 'Да, деактивировать эту Группу'
+    leave_group:
+      title: Покинуть группу
+      question: 'Вы уверены что хотите покинуть эту Группу?'
+      submit: 'Да, покинуть эту Группу'
+      cannot_leave_group: 'Вы не можете покинуть эту Группу так как вы последний координатор. Вам необходимо выбрать другого координатора или деактивировать эту Группу'
+      add_coordinator: 'Добавить координатора'
+    volume:
+      loud: Присылать уведомления когда в Группе активность.
+      loud_aria_description: Громкость уведомления в этой Группе у Вас установлена на громкий. Это значит Вам будут приходить уведомления о любой активности в этой Группе.
+      loud_message: Вы будете получать уведомления о всей активности в "{{name}}."
+      normal: 'Присылать уведомления только о важной активности: о новых Задачах и Предложениях или Итогах'
+      normal_aria_description: Громкость уведомления в этой Группе у Вас установлена на нормальный. Это значит Вам будут приходить уведомления лишь о важной активности в этой Группе, когда кто-то создает новую Задачу или Предложение итд
+      normal_message: 'Вы будете получать уведомления о важной активности в  "{{name}}".'
+      quiet: Не присылать уведомления об этой Группе. Активность можно будет посмотреть на Панели.
+      quiet_aria_description: Громкость уведомления в этой Группе у Вас установлена на тихий. Это значит Вам не будут приходить уведомления об активности в этой Группе.Активность в Группе будет показана на Панели.
+      quiet_message: 'YВы не будете получать уведомления о "{{name}}".'
+      mute: Не показывать эту Группу на Панели, и не присылать уведомления, только  если я не упомянут.
+      mute_aria_description: Громкость уведомления в этой Группе у Вас установлена на заглушить. Это значит Вам будут не приходить уведомления об активности в этой Группе, только если вы не будете упомянуты. Также Группа не будет высвечиваться на Панели
+      mute_message: '"{{name}}" была удалена с Панели'
+    privacy:
+      private: 'Приватность: эта группа видна лишь ее участникам'
+      parent_members: 'Приватность: эта группа видна лишь участникам {{parentGroupName}} и {{groupName}}'
+      public: 'Приватность: эта группа видна всем'
+      aria_label: 'Приватность Группы: {{privacy}}'
+
+  confirm_gift_plan_modal:
+    heading: Подарочный план выбран
+    body: "Если у вашей Группы недостаточно денег чтобы заплатить за приложение, Вам не нужно платить за подписку. Участников Вашей Группы периодически будут просить о добровольном пожертвовании"
+    confirm_selection: "Я буду рад, если участников моей Группы будут просить о пожертвовании для Loomio"
+    got_it: "Ok, понятно!"
+    go_back: Вернуться
+
+  donation_modal:
+    heading: Вы бы хотели поддержать Loomio?
+    body: "Loomio это специальный проект, нацеленный на создание мира где все люди могут повлиять на решения важные для них"
+    contribute: Внести вклад
+    got_to_group: Просто покажите мне мою Группу
+
+  gift_card:
+    heading: Подарочный план
+    body: "<strong>{{name}}</strong> это Группа поддерживающая подарки. Чтобы поддержать Loomio, нажмите сюда:"
+    make_a_contribution: Внести вклад
+
+  trial_card:
+    title: '30-дневная демо версия'
+    choose_plan: 'Выбрать ценовой план'
+    in_progress_body: 'Спасибо за использование с <strong>{{name}}</strong>. Вы можете подобрать ценовой план который подойдет Вашей Группе в любое время.'
+    expired_body_html: "<strong>{{name}}</strong> достигло конца своей демо версии. Чтобы продолжать использовать это приложение, необходимо выбрать ценовой план который подойдет Вашей Группе"
+
+  choose_plan_modal:
+    heading: 'Пожалуйста, выберите план для Вашей Группы'
+    gift: Подарочный
+    standard: Стандартный
+    plus: Супер-плюс
+    free_trial_html: "Мы попросим Вас выбрать ценовой план после <span>30-дневной бесплатной демо версии</span>."
+    get_started_for_free: "Начать бесплатно"
+    gift_body: Для Групп без бюджета
+    support_before: Я буду рад
+    support_link: поговорить с Вами
+    support_after: по поводу продления использования этим приложением или по любым другим вопросам
+    remind_me_later: Напомнить мне позже
+    gift_donation_ask: WМы попросим других участников Группы внести пожертвования
+    unlimited_members: неограниченное количество участников
+    unlimited_decisions: неограниченное количество решений
+    email_support: поддержка электронной почты
+    slack_integration_html: |
+      <strong>Slack</strong> интеграция
+    standard_price_html: |
+      US <strong>$19</strong>/в месяц<br><span>or</span> $190/в год
+    plus_body: 'Все стандартно, плюс:'
+    multiple_groups: несколько Групп
+    premium_support: высококлассная поддержка
+    custom_subdomain_html: |
+      custom subdomain,<br />
+      e.g. <strong>yourgroup</strong>.loomio.org
+    plus_price_html: |
+      US <strong>$179</strong>/в месяц<br><span>or</span> $1790/в год
+    select: Выбрать
+
+  subscription_success_modal:
+    heading: Спасибо за подписку
+    receipt: Вы получите письмо с чеком
+    change_subscription: "Если Вы когда-нибудь захотите поменять подписку"
+    contact_link: пожалуйста, свяжитесь с нами
+    sign_off: с команда Loomio
+    ok_got_it: Ok, понятно!
+  group_form:
+    start_group_heading: 'Создать Группу'
+    start_subgroup_heading: 'Создать ПодГруппу'
+    edit_group_heading: 'Изменить настройки Группы'
+    edit_subgroup_heading: 'Изменить настройки ПодГруппы'
+    group_name: 'Название Группы'
+    group_name_placeholder: 'Как бы Вы хотели назвать свою Группу?'
+    subgroup_name: 'Название ПодГруппы'
+    description: 'Описание'
+    description_placeholder: 'Опишите цели этой Группы, так что остальные участники знали ее предназначение'
+    privacy_statement:
+      public_on_web: 'Название и описание этой Группы будут видны всем'
+      private_to_group: 'Название и описание этой Группы будут видны лишь участникам этой Группы'
+      private_to_parent_members: 'Название и описание этой Группы будут видны {{parent}}'
+    privacy: 'Приватность'
+    group_privacy_is_open_description: "любой может найти и запросить доступ к Группе. Только участники будут видеть кто в Группе. Все Задачи видны всем"
+    group_privacy_is_closed_description: "любой может найти и запросить доступ к Группе.Только участники будут видеть кто в Группе. Все Задачи видны видны лишь участникам Группы"
+    group_privacy_is_closed_public_threads_description: любой может найти и запросить доступ к Группе. Только участники будут видеть кто в Группе. Все Задачи могут быть приватными или публичными
+    confirm_change_to_secret: "Если Вы продолжите, все Задачи будут приватными"
+    confirm_change_to_secret_subgroup: 'Если Вы продолжите, все Задачи будут приватными'
+    confirm_change_to_public: 'Если Вы продолжите, все Задачи будут публичными'
+    confirm_change_to_private_discussions_only: 'Если Вы продолжите, все публичныме Задачи станут приватными'
+
+    subgroup_privacy_is_open_description: "любой может найти и запросить доступ к ПодГруппе. Только участники будут видеть кто в ПодГруппе. Все Задачи видны всем"
+    subgroup_privacy_is_closed_description: "любой может найти и запросить доступ к ПодГруппе.Только участники будут видеть кто в ПодГруппе. Все Задачи видны видны лишь участникам ПодГруппы"
+    subgroup_privacy_is_closed_public_threads_description: "любой может найти и запросить доступ к ПодГруппе. Только участники будут видеть кто в ПодГруппе. Все Задачи могут быть приватными или публичными"
+    subgroup_privacy_is_closed_secret_parent_description: "участники {{parent}} могут найти и запросить доступ к ПодГруппе.Все Задачи приватные.Только участники будут видеть кто в Группе."
+    subgroup_privacy_is_secret_description: 'только приглашенные участники могут видеть эту Группу, других участников и Задачи'
+
+    advanced_settings: "Расширенные настройки"
+    how_do_people_join: "Как добавить участников?"
+    membership_granted_upon_request: 'Все могут вступать в Группу.'
+    membership_granted_upon_approval: 'Все кто запросить доступ к Группе, должен быть одобрен.'
+
+    membership_granted_upon_approval_secret_parent: '<strong>По доступу</strong> - все из {{parent}} должны запросить доступ.'
+
+    permissions: 'Доступ'
+    thread_privacy: 'Приватность Задачи'
+    public_threads: 'Только публичные Задачи'
+    public_discussions_subgroup: 'Все из {{parentGroupName}} могут видеть обсуждения'
+    public_or_private_threads: 'Разрешить публичные и приватные Задачи'
+    private_threads: 'Только участники могут видеть обсуждения'
+    permissions: 'Доступ'
+    allow_public_threads: 'Разрешить публичные Задачи в этой Группе'
+    #is_visible_to_parent_members: 'Контент виден участниками {{parentGroupName}}.'
+    parent_members_can_see_discussions: 'Участники {{parent}} могут видеть приватные Задачи.'
+    members_can_add_members: 'Участники могут приглашать других людей в Группу'
+    members_can_create_subgroups: 'Участники могут создавать ПодГруппы'
+    members_can_edit_discussions: 'Участники могут менять контекст и название Задачи'
+    members_can_edit_comments: 'Участники могут менять свои комментарии в любой момент'
+    members_can_start_discussions: 'Участники могут создавать новые Задачи'
+    members_can_vote: 'Участники могут голосовать за Предложения.'
+    members_can_raise_motions: 'Участники могут создавать Предложения'
+
+    submit_start_group: 'Создать Группу'
+    submit_start_subgroup: 'Создать ПодГруппу'
+    submit_update: 'Обновить настройки'
+
+    messages:
+      group_created: 'Группа создана'
+      group_updated: 'Группа обновлена'
+
+  membership_requests_card:
+    heading: 'Запрос на участие в Группе'
+    manage_requests: Управлять запросами
+    manage_requests_with_count: Управлять запросами ({{count}})
+
+  group_help_card:
+    title: Помощь
+    ten_tips_article_title: 10 tips for making great decisions with Loomio
+    ten_tips_article_link: https://blog.loomio.org/2015/09/10/10-tips-for-making-great-decisions-with-loomio/
+    nine_ways_to_use_proposals: 9 ways to use a Loomio proposal to turn a conversation into action
+    nine_ways_to_use_proposals_link: https://blog.loomio.org/2015/09/18/9-ways-to-use-a-loomio-proposal-to-turn-a-conversation-into-action/
+
+  membership_requests_page:
+    heading:
+    approve: Подтвердить
+    ignore: Игнорировать
+    no_pending_requests: На данный момент нет запросов о вступлении в Группу.
+    no_previous_requests: На данный момент нет предыдущих запросов о вступлении в Группу
+    previous_requests: Предыдущие запросы
+    previous_request_response: '{{response}} от {{responder}} '
+    messages:
+      request_approved_success: Участие подтверждено
+      request_ignored_success: Участие проигнорированно
+
+  group_previous_proposals_card:
+    heading: Предыдущие Предложения
+    see_more: Еще
+
+
+  invitation_form:
+    invite_people: 'Пригласить людей'
+    group: 'Группа'
+    shareable_link: 'Ссылка коллективного пользования'
+    copy_link: 'Скопировать ссылку'
+    email_addresses: 'Электронная почта'
+    email_addresses_placeholder: 'e.g. helperbot@loomio.org, friendlybot@loomio.org'
+    shareable_link_explanation: 'Скопировать ссылку и отправить всем кто хочет вступить в Группу. Нажав на ссылку, они сразу получат доступ'
+    email_explanation: 'Либо, введите адрес электронной почты, и мы отправим приглашения по почте'
+    add_custom_message: 'Сделать приглашение личным, '
+    add_custom_message_link: 'добавить сообщение.'
+    custom_message: 'Сообщение'
+    custom_message_placeholder: 'Введите персональное сообщение, которое будет прилагаться к приглашению'
+    team_invitation_message: 'Либо, '
+    team_invitation_link:  'добавьте ссылку'
+    add_members: 'Добавить участников'
+    from_parent_group: 'из {{name}}.'
+    send: 'Отправить'
+    done: 'Готово'
+    messages:
+      invitation_sent: 'Приглашение отправлено.'
+      invitations_sent: '{{count}} приглашений отправлено'
+      no_invitations: 'Ой! Пожалуйста, подтверждите правильность Вашей электронной почты и попробуйте снова'
+      max_invitations: 'Если вы хотите отправить более 100 приглашений, используйте ссылку'
+
+  add_members_modal:
+    heading: 'Добавить участников из {{name}}'
+    add_members: 'Добавить участников'
+    user_added_to_subgroup: '{{name}} был добавлен в ПодГруппу'
+    users_added_to_subgroup: '{{count}} участников было добавлено в ПодГруппу'
+    no_members_to_add: 'Все участники {{parent}}  принадлежан этой ПодГруппе'
+
+  pending_invitations_card:
+    heading: Ожидающие приглашения
+    email: Электронная почта
+    invitation_link: Ссылка с приглашением
+    sent: Отправлено
+
+  cancel_invitation_form:
+    heading: Отметить приглашение
+    question: Вы уверены что хотите отменить приглашение?
+    submit: "Да, отменить приглашение"
+    cancel: 'Нет'
+    messages:
+      success: Приглашение отменено
+
+  profile_page:
+    messages:
+      updated: 'Профиль обновлен'
+      picture_changed: 'Фото профиля обновлено'
+      password_changed: 'Пароль обновлен'
+      deactivated: 'Профиль деактивирован'
+    change_picture:
+      title: 'Изменить картинку'
+      helptext: 'Вы можете загрузить свою фотография, или, если у Вас есть  учетная запись в <a href="https://en.gravatar.com/support/what-is-gravatar/">Gravatar</a> , вы можете его использовать'
+      use_initials: 'Использовать инициалы'
+      use_gravatar: 'Использовать gravatar'
+      use_uploaded: 'Загрузить новую картинку'
+    change_password:
+      title: 'Изменить пароль'
+      helptext: 'Пароль должен содердать минимум 8 символов. Слишком простые пароли не принимаются для Вашей же безопасности'
+      current_password_label: Действующий пароль
+      new_password_label: Новый пароль
+      password_confirmation_label: Повторите новый пароль
+      submit:
+    deactivate_user:
+      title: Деактивировать учетную запись
+      question: 'Не могли бы Вы сказать почему деактивируете свою учетную запись?'
+      placeholder: 'Ответ на этот вопрос необязателен. Любая информация поможет нам улучшить наши услуги :)'
+      submit: Деактивировать учетную запись
+    change_picture_link: 'Изменить картинку'
+    change_password_link: 'Изменить пароль'
+    deactivate_user_link: 'Деактивировать учетную запись...'
+    profile: Профиль
+    edit_profile: 'Изменить настройки профиля'
+    picture_label: 'Картинка'
+    name_label: Имя
+    username_label: Логин
+    email_label: Email
+    locale_label: Язык
+    update_profile: Обновить профиль
+
+
+  email_settings_page:
+    header: Настройки email
+    all_groups: Настройки для всех Групп
+    daily_summary_label: Email с дневной активностью
+    daily_summary_description: "Каждое утро вы будете получать email с любой активностью которую Вы пропустили за день. Этот email позволит быть всегда в курсе последних событий"
+    on_participation_label: Подписаться к участию
+    on_participation_description: "Когда вы участвуете в Задаче, любая активность будет приходить к вам на почту."
+    mentioned_label: Упоминания
+    mentioned_description: "Когда кто-то хочет привлечь Ваше внимание к чему-либо, они будут Вам @упоминать. Мы рекоммендуем это оставить, таким образом вы будете получать уведомления"
+    update_settings: Обновить настройки всех Групп
+    specific_groups: Настройки определенных Групп
+    default_settings: "Когда вы вступаете в новую Группу вы будете уведомляться о новых <strong>new Задачах и Предложениях</strong>."
+    change_default: Изменить начальные настройки
+    edit: Изменить
+    messages:
+      updated: Настройки email изменены
+
+
+  dashboard_page:
+    aria_label: Кабинет
+    mark_as_read: Отметить прочитанным
+    threads_from:
+      today: Сегодня
+      yesterday: Вчера
+  dashboard_page:
+    aria_label: Кабинет
+    options:
+      aria_label: 'Настройки фильтра Панели'
+    no_threads:
+      show_all: У Вас нет недавних Задач You don't have any recent threads.
+      show_participating: Вы не учавствовали в Задачах в недавнее время.
+      show_starred: У Вас нет избранных Задач
+      show_proposals: Нет активных Предложений
+      show_muted: У Вас нет заглушенных Предложений
+    view_recent: Просмотеть недавние Предложения?
+    load_more: Загрузить больше Задач
+    mark_as_read: Отметить прочитанным
+    filtering:
+      filter_threads: Фильтровать Задачи
+      filter_threads_aria_label: Фильтровать Задачи
+      dropdown_heading: Фильтровать Панель
+      all: Недавние Задачи
+      all_aria_label: Показ недавних Задач
+      all_description: Просмотеть недавние Задачи
+      starred: Избранные Задачи
+      starred_aria_label: Показ Задач отмеченных как важные
+      starred_description: Смотреть Задачи только которые отмеченны как важные
+      participating: Участвующие Задачи
+      participating_aria_label: Показ Задач в которых я учавствовал
+      participating_description: Показать только те Задачи в которых я учавствовал
+      proposals: Предложения
+      proposals_aria_label: Показ Задач с активными Предложениями
+      proposals_description: Показать Задачи с активными Предложениями
+      muted: Загрушенные
+      muted_aria_label: Показ заглушенных Задач
+      muted_description: View only threads which have been muted Показать только заглушенные Задачи
+    aria_thread:
+      unread: '{{count}} непрочитанных'
+      current_proposal: 'Даноое Предложение: {{name}}.'
+      you_voted: 'Вы проголосовали: {{position}}.'
+    threads_from:
+      group: 'Задачи из'
+      proposals: 'Предложения'
+      starred: 'Избранные Задачи'
+      today: Сегодня
+      yesterday: Вчера
+      thisweek: 'Эта неделя'
+      thismonth: 'Этот месяц'
+      older: 'Ранее в этом месяце'
+
+  star_toggle:
+    star: Отметить Задачу как Избранную
+
+  inbox_page:
+    no_threads: Ура! Вы прочитали все свои Задачи
+    unread_threads: Непрочитанные Задачи
+    view_more: Просмотеть больше
+
+  groups_page:
+    page_header: Ваши Группы
+
+
+  discussion:
+    activity: 'Активность'
+    activity_placeholder: 'Нет никакой активности!'
+    proposals: 'Предложения'
+    previous_proposals: Предыдущие голосования
+    load_previous: 'Загрузить раннюю активность'
+    you_like_this: 'Вам нравится это'
+    liked_by_you_and_someone: 'Вам и {{name}} нравится это'
+    liked_by_you_and_others: 'Нравится Вам, {{joinedNames}} и {{name}}.'
+    liked_by_someone: '{{name}} нравится это'
+    liked_by_two_others: '{{name_1}} и {{name_2}} нравится это.'
+    liked_by_many_others: '{{joinedNames}} и {{name}} нравится это.'
+    liked_by_name: '{{name}}. нравится это'
+    liked_by_names_and_name: '{{joinedNames}} и {{name}} нравится это.'
+    started_by: '<strong>{{name}}</strong> добавил это в избранное'
+    edited: 'Изменено'
+    volume:
+      mute_message: 'Задача заглушена'
+
+  thread_group:
+    aria_label: Название группы
+  thread_context:
+    aria_label: 'Контекст Задачи'
+    thread_options: 'Параметры Задачи'
+    email_settings: 'Параметры еmail'
+    edit_thread: 'Изменить'
+    move_thread: 'Переместить'
+    print_thread: 'Напечатать'
+    delete_thread: 'Удалить'
+
+  delete_thread_form:
+    title: Удалить Задачу
+    body: Вы уверены что хотите удалить эту Задачу?
+    confirm: 'Да, удалить Задачу'
+    messages:
+      success: Задача удалена
+
+  move_thread_form:
+    title: Переместить Задачу
+    body: 'Куда переместить:'
+    confirm: Переместить Задачу
+    confirm_change_to_private_thread: '{{groupName}} открытая Группа. Если Вы продолжите, эта Задача будет публичной'
+    messages:
+      success: Задача была перемещена в {{name}}
+
+  activity_card:
+    new_activity: Новое действие
+    attachment_display:
+      aria_label: 'Прикреплен файл:'
+      image_alt: 'Прикрепленное изображение'
+
+  delete_comment_dialog:
+    title: Удалить комментарий
+    question: Вы уверены что хотите удалить комментарий?
+    confirm: Удалить комментарий
+
+
+  new_comment_item:
+    aria_label: 'Комментарий {{author}}'
+    context_menu:
+      aria_label: 'Настройки комментариев'
+      edit_comment: Редактировать коментарий
+      delete_comment: Удалить комментарий
+    in_reply_to: 'в ответ на <strong>{{recipient}}</strong>'
+    edited: 'Edited'
+
+  new_vote_item:
+    agree: 'согласен'
+    abstain: 'воздерживаюсь'
+    disagree: 'не согласен'
+    block: 'блокирую'
+    agree_with_statement: 'согласен: <span>{{statement}}</span>'
+    abstain_with_statement: 'воздерживаюсь: <span>{{statement}}</span>'
+    disagree_with_statement: 'не согласен: <span>{{statement}}</span>'
+    block_with_statement: 'блокирую: <span>{{statement}}</span>'
+
+  new_proposal_item:
+    author_created_proposal: 'Создал Предложение: <span>{{title}}</span>'
+
+  proposal_closed_item:
+    proposal_closed: 'Предложение было закрыто: <span>{{title}}</span>'
+
+  proposal_closed_by_user_item:
+    proposal_closed_by_user: 'закрыл Предложение: <span>{{title}}</span>'
+
+  proposal_edited_item:
+    name: 'Обновил название Предложения: <span>{{title}}</span>'
+    description: 'Обновил описание Предложения'
+    closing_at: 'обновил Предложение к закрытию в <span>{{time}}</span>'
+    description_name: 'обновил название и описание Предложения'
+    closing_at_name: 'Обновил название Предложения и время закрытия'
+    closing_at_description: 'обновил описание Предложения и время закрытия'
+    closing_at_description_name: 'обновил название Предложения описание и время закрытия'
+
+  proposal_outcome_created_item:
+    proposal_outcome_created: 'опубликовал Итоги Предложения:'
+
+  proposal_outcome_updated_item:
+    proposal_outcome_updated: 'обновил Итоги Предложения:'
+
+  discussion_edited_item:
+    title: 'обновил название Задачи: <span>{{title}}</span>'
+    description: 'обновил контекст Задачи'
+    description_title: 'обновил название Задачи и ее контекст'
+    private: 'обновил приватность Задачи на'
+    public_to_private: 'приватный'
+    private_to_public: 'публичный'
+    private_title: 'обновил название Задачи и ее приватность'
+    description_private: 'обновил контекст Задачи и ее приватность'
+    description_private_title: 'обновил название Задачи, ее контекст и приватность'
+
+  discussion_moved_item:
+    discussion_moved: 'переместил Задачу из <span>{{group}}</span>'
+
+  contact_message_form:
+    contact_us: Наши контакты
+    name_label: Ваше имя
+    name_placeholder: Введите ваше имя...
+    email_label: Ваш электронный адрес
+    email_placeholder: Введите ваш электронный адрес...
+    message_label: Ваше сообщение
+    message_placeholder: Ваше сообщение...
+    send_message: Отправить сообщение
+
+
+  help_page:
+    coordinating: Координация вашей группы
+    coordinating_details: |
+       Как координатор вы ответственны за создание Группы и приглашение в нее людей. Наряду с изучением нового приложения, ваша Группа будет учить новые эффективные процессы коллаборации и коммуникации и учиться эффективно принимать решения
+       Вот некоторые из полезных советов
+    different_ways: Различные способы использования Loomio
+    engaging_html: |
+      <h2>Советы по привлечению людей в процесс</h2>
+      <p>
+      Людям будет интересно учавствовать в процессе, если есть какие-то активные Предложения.
+      Хорошее Предложение содержит план действий для Группы, так что сразу понятна причина согласия и несогласия.
+      </p>
+      <p>Если Ваша Группа только начала свое существование, начните с легкого решения или обсуждения, чтобы дать возможность людям ознакомиться с приложением, и увидеть процесс принятия решения воочию.
+      </p>
+
+      <p> Еще один способ привлечь людей к активному обсуждению, это использовать функцию @упоминания, чтобы обратиться к определенным людям, таким образом они получать уведомление, что их упомянули в обсуждении.
+      </p>
+    example1_html: |
+      <h3>Вам необходимо чтобы Ваша Группа обсуждала обширную тему и разработала пути решения все вместе, как Группа</h3>
+      <p> Стратегия: Обсуждайте тему какое-то время прежде чем создавать Предложение</p>
+      <p> Обсуждения обычно достигают лучших результатов, если вы создадите общее понимание проблемы до того как начнете искать решения
+      Когда людям удается поучавствовать в обсуждении, они более охотно будут предлагать решения </p>
+    example2_html: |
+      <h3> У Вас есть в мыслях какое-то Предложение, и Вы хотите поскорее закончить обсуждение.</h3>
+      <p> Стратегия: Начните обсуждение касательно определенного решения и сразу сделайте свое Предложение.</p>
+      <p> Если у Вас есть четкое видение результатов, но Вы хотите убедиться что нет никаких ключевых замечаний,
+       Вы можете использовать Предложение чтобы вмести быстрый вклад в процесс принятия решения.</p>
+      <p> Вы можете детать такие вещи как финализировать документ, улучшить применение, и распределить обязанности.</p>
+
+    get_in_touch: Оставаться на связи
+    get_in_touch_description_html: "Если у Вас есть вопросы или отзыв, <a href='%{link}'>черкните нам пару строк</a>."
+    getting_started: С чего начать
+    getting_started_description: "Слева Группа обсуждает тему, обменивается идеями и информацией. Если есть какое-то решение, которое должны принять члены Группы, оно появляется справа"
+    getting_the_most: 'Получить максимум от Loomio'
+
+    have_your_say: Выразить свое мнение
+    have_your_say_details_html: |
+      <p>  Если вы готовы выразить мнение, нажмите на одну из кнопок решения.</p>
+      <p> Когда вы вырвзили свое мнение, дайте короткое объяснение Вашему решению
+      Под графиком вы можете видеть мнение других людей. Такое обсуждение позволяет быстро понять тему и направление обсуждения. При появлении новой информации, вы можете с легкостью поменять мвое решение.
+      </p>
+    have_a_discussion: "Обсуждать"
+    have_a_discussion_description: "Темв и любая другая полезная информация будет располагаться сверхц страницы. Используйте место для комментариев чтобы выразить свое мнение"
+
+    help: Помощь
+    how_it_works: Как это работает
+    invitation_html: |
+      <h2>Написание хорошего приглашения</h2>
+      <p> Первый вопрос который возникнет у любого члена Группы: Зачем нужна эта Группа?’</p>
+      <p> Подумайте над тем как наиболее просто описать Группу: Чего бы вы хотели достичь в ней? Какие решения вы будете в ней принимать? Кто будет вовлечен в процесс?</p>
+      <p> Хорошей идеей было бы сначала поговорить со своей Группой и только затем приглашать ее в Группу.</p>
+      <p> Люди захотят узнать почему их пригласили и что от них ожидают, и стоит ли тратить время на это новое приложение.</p>
+
+    join_the_community: Присоединиться к сообществу
+    join_the_community_description_html: "Мы приветствуем всех кто хочет присоежиниться к нашему сообществу, где мы говорим о том как можно улучшить наш продукт.<br /><br /><a href='https://www.loomio.org/g/WmPCB3IR'>Click here to go the Loomio Community group</a>."
+    images_and_text_formatting: "Формат текста и изображения"
+    images_and_text_formatting_html: |
+      <p>Loomio использует ‘Markdown’ для вставки изображения и форматирования текста.
+      Вы можете кликнуть на малелькую серую иконку под комментариями.</p>
+      <p><a href='https://www.loomio.org/discussions/1124'>Click here</a>
+      Для информации как использовать Markdown пройдите по ссылке.</p>
+    keep_up_to_date: "Keep up to date"
+    keep_up_to_date_html: |
+      <p> Если вы кликните по названию Группы сверху окна, переместит Вас на страницу Группы, где Вы сможете увидеть все обсуждения и решение данной Группы.
+      Если вы состоите больше чем в одной Группе, Вам необходимо перейти нв домашнюю страницу чтобы увидеть активность всех групп.</p>
+      <p> Вы будете получать уведомления когда будут важные изменения в Группе. Вы также можете изменить  частоту уведомлений
+       <a href="%{link}"">here</a>.</p>
+
+    make_a_decision: Принять решение
+    make_a_decision_description: 'Когда группа готова принять решение, каждый может сделать предложение. Обозначьте ясный порядок действий и дайте пояснения, чтобы каждый точно знал, что означает согласиться или не согласиться.'
+    prompt_people_details: "Если Вы хотите привлечь внимание определенного человека, наберите ‘@’ затем их имя. Они получат уведомление о том что их в комментарии"
+    prompt_people_html: "Побуждайте людей <span class='blue'>@mentions</span>"
+    positions_agree_description: '<span>Согласен(-на)</span> означает, что Вы довольны предложением.'
+    positions_abstain_description: "<span>Воздерживаюсь</span> значит что Вы не уверены либо Вы удовлетворены тем, что Группа решит без Вас."
+    positions_disagree_description: "<span>Не согласен</span> значит что возможно есть альтернатива получше, и Вы хотите учавствовать в обсуждении."
+    positions_block_description: "<span>Блокирую</span> значит что Вы категорически не согласны, и будете крайне недовольны, если Предложение пойдет дальше"
+    start_discussion: Начиная интересное обсуждение
+    start_discussion_html:  |
+      <p>
+      Когда Вы начинаете обсуждение, убедитесь в том что название точно отражает обсуждаемую тему.
+      Используйте контекстную Панель чтобы дать побольше начальной информации, которая позволить быстро начать продуктивное обсуждение
+      </p>
+      <p>
+      Во время обсуждения, контекстная Панель может быть обновлена, если, например, поступает новая информация
+      Помимо добавления дополнительной информации, вы можете использовать это пространство для загрузки текста и ссылок, подводить итоги обсуждения, либо распределять задачи
+      </p>
+    start_proposal: Написание понятного предложения
+    start_proposal_html: |
+      <p>
+      Если Вы создаете понятное название вашего обсуждения, люди смогут сразу понимать о чем идет речь, и будет более понятно отношение к этому вопросу.
+      </p>
+      <p>
+      Ничего страшного в том, что не получится сделать Предложение понятным с первого раза
+      Если Группе не понравится Первое Предложение, любой может начать другое, для того чтобы поднять волнующие вопросы.
+      </p>
+      <p>
+      Во время такого динамичного процесса мудрость Группы может создать идеи лучше чем каждая личность по-отдельности
+      </p>
+      <p>
+      Время закрытия Предложения может быть изменено, если кажется, что вопрос требует большего времени
+      Все участники получать сообщение на электронную почту за 24 часа до закрытия Предложения</p>
+    video_id: "52025402"
+    video_tutorial: Видеоучебник
+    video_tutorial_description: 'Посмотрите видео, которое вкратце покажет, как использовать Loomio.'
+
+  hint:
+    context: Подсказки для использования контекстной панели
+    discussion: Подсказки для начала увлекательного обсуждения
+    invitation: Подсказки для написания отличного приглашения
+    proposal: Подсказки для написания понятного предложения
+    vote: Вы можете изменить вашу позицию в любое время
+
+  angular:
+    switch_back: 'Переключиться на старую версию Loomio'
+    give_feedback: 'Оставить отзыв'
+    collapse: Сжать
+    enable:
+      invite: 'Попробуйте новый Loomio!'
+      title: 'Попробовать новый Loomio!'
+      intro: "Мы изменили Loomio, убедитесь в том что он стал лучше!"
+      body_html: |
+        <p></p>
+        <h3>В чем разница?</h3>
+
+        <p>
+          Новый интерфейс это как старый только он новее :):
+          <ul>
+            <li>Все обновляется в режиме реального времени</li>
+            <li>Он разработан для всех устройств, начиная от смартфона и заканчивая компьютером</li>
+            <li> Он приспособлен для слепых людей и переведен на <a href="https://www.loomio.org/translation">heaps of languages</a>
+          </ul>
+        </p>
+
+        <p>Приложение использует ту же базу данных что и старый интерфейс, что значит что вы можете использовать свои старые Группы и обсуждения.</p>
+        <p>В нижнем левом углу окна есть ссылка "Оставить отзыв". Также вы увидите ссылку "Переключиться на старую версию Loomio", которая будет доступна какое-то время.</p>
+        <p>Мы бы очень хотели узнать Ваше мнение, спасибо за Ваше время и поддержку.</p>
+
+      button_text: 'Активизировать новый Loomio'
+
+    disable:
+      title: 'Спасибо за то что попробовали новый Loomio'
+      body_html: "<p>Ой, что-то пошло не так? Нам очень жаль что с Вами это произошло</p>"
+      give_feedback: "До того как Вы уйдете, пожалуйста, оставьте свой отзыв чтобы мы могли стать лучше для Вас"
+      button_text: 'Вернуться на старую версию Loomio'
+
+  global:
+    messages:
+      app_update: 'Доступна новая версия Loomio'
+      reload: 'Перезагрузить'
+
+  emoji_picker:
+    search: "Найти смайлики emoji..."
+    no_emojis_found: "Не было найдено смайликов для '{{term}}'!"
+
+  authorized_apps_page:
+    title: Авторизованные приложения
+    no_applications: "Вы пока не авторизовались ни в одно приложение."
+    notice: "Вам дали разрешение на пользование приложениями вашей учетной записи. Нажмите 'Отозвать' чтобы их деактивировать"
+    revoke: Отозвать
+
+  registered_apps_page:
+    title: Зарегистрированные приложения
+    no_applications: "У вас пока нет ни одного зарегистрированного приложения! Нажмите чтобы создать его."
+    name: Имя
+    redirect_uris: Перенаправить URIs
+    create_new_application: Новое приложение
+
+  registered_app_page:
+    uid: ID приложения
+    secret: Секрет приложения
+
+  registered_app_form:
+    new_application_title: Новое приложение
+    edit_application_title: Обновить приложение
+    name_label: Имя
+    name_placeholder: Как называется Ваше приложение?
+    redirect_uri_label: Перенаправить Uris
+    redirect_uri_placeholder: "uri для Вашего приложения, Например: https://myapplication.com/loomio/callback"
+    redirect_uri_note: (одна строка для URI, use 'urn:ietf:wg:oauth:2.0:oob' for local tests)
+    new_application_submit: Создать приложение
+    edit_application_submit: Обновить приложение
+    messages:
+      logo_changed: Обновлен логотип updated.
+      created: "Создан '{{name}}'"
+      updated: "Обновлен '{{name}}'"
+
+  remove_app_form:
+    title: Деактивировать {{name}}
+    question: "Вы уверены что хотите деактивировать приложение'{{name}}'? Это действие будет окончательным."
+    submit: Деактивировать
+    messages:
+      success: "'{{name}}' было успешно деактивированно"
+
+  revoke_app_form:
+    title: Отозвать доступ к {{name}}
+    question: "Вы уверены что Вы хотите  Are you sure you запрещать пользование '{{name}}' вашей учетной записью?"
+    submit: Отозвать доступ
+    messages:
+      success: "'{{name}}' больше не может использовать Вашу учетную запись."
+
+  pricing_page:
+    organisations: Организации
+    informal_groups: Неформальные группы
+    informal_groups_desc: 'У членов Вашей группы попросят заплатить, сколько они смогут'
+

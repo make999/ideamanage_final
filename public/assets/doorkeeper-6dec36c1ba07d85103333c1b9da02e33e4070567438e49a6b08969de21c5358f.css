@@ -1,0 +1,38 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\000031}}
+.doorkeeper {
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\000036}}
+.doorkeeper .doorkeeper-tableau {
+  height: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\0000310}}
+.doorkeeper .doorkeeper-logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: white;
+  box-shadow: 0 0 0 3px white, 0 0 0 4px #ccc, 0 0 0 6px white, 0 0 0 8px #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\0000318}}
+.doorkeeper .doorkeeper-loomio-logo {
+  top: 15px;
+  right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\0000323}}
+.doorkeeper .doorkeeper-third-party-logo {
+  top: 75px;
+  left: 20px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\0000329}}
+.doorkeeper .actions {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/doorkeeper\.scss}line{font-family:\0000333}}
+.doorkeeper .actions form {
+  display: inline-block;
+  padding: 0 10px;
+}

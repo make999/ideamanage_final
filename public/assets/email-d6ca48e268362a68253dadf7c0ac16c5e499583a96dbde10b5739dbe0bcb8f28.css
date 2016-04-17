@@ -1,0 +1,199 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/unstructured\/_settings\.scss}line{font-family:\0000352}}
+p.font-mid-grey {
+  color: #777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000033}}
+img {
+  max-width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000035}}
+blockquote {
+  margin: 0 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\000037}}
+blockquote p {
+  max-width: 34em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000310}}
+hr {
+  max-width: 40em;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000315}}
+h1, h2, h3, h4, h5, h6 {
+  max-width: 40em;
+  margin: .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000320}}
+p {
+  max-width: 40em;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000324}}
+p img {
+  max-width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000327}}
+p.unsubscribe {
+  font-size: 0.8em;
+  border-top: 1px solid #CCCCCC;
+  padding-top: 5px;
+  max-width: 50em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000334}}
+table {
+  max-width: 40em;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000338}}
+table img {
+  margin-right: .4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000343}}
+.cell-border-bottom {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000345}}
+th {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000351}}
+.agreed, .yes {
+  color: #90D490;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000352}}
+.abstained, .abstain {
+  color: #F0BB67;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000353}}
+.disagreed, .no {
+  color: #D49090;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000354}}
+.blocked, .block {
+  color: #dd0000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000356}}
+.yes-link {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000361}}
+.abstain-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000366}}
+.no-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000371}}
+.block-link {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000376}}
+.positions-title, .closes-in-text, .have-say-title, .activity-email-subsection {
+  color: #555;
+  margin: 1em 0 .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000381}}
+.author-action {
+  margin: 1em 0 .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000382}}
+.motion-name {
+  max-width: none;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000387}}
+.comment {
+  padding-left: 25px;
+  max-width: 40em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000392}}
+.proposal-position {
+  padding: 0 0.5em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\0000397}}
+.proposal-text {
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003103}}
+.outcome-header {
+  font-size: 1.2em;
+  margin: 14px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003107}}
+.outcome-subheader {
+  font-weight: 700;
+  font-size: 1em;
+  margin: 14px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003113}}
+.proposal-outcome p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003115}}
+.proposal-details {
+  margin: 0;
+  color: #555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003120}}
+.nowrap {
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003122}}
+p.campaign {
+  background-color: #E6E6E6;
+  padding: 10px;
+  margin-top: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003128}}
+img.emojione {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/root\/ror\/loomio\/app\/assets\/stylesheets\/email\.scss}line{font-family:\00003134}}
+img {
+  max-width: 500px;
+}

@@ -1,0 +1,43 @@
+# Logfile created on 2016-04-05 00:01:42 +0200 by logger.rb/53141
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Starting the New Relic agent in "production" environment.
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] WARN : No configuration file found. Working directory = /root/ror/loomio
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] WARN : Looked in these locations (based on defaults): /root/ror/loomio/config/newrelic.yml, /root/ror/loomio/newrelic.yml, /root/ror/loomio/config/newrelic.yml, /root/ror/loomio/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Environment: production
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : No known dispatcher detected.
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Application: production
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing ActiveRecord 4 instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Net instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Memcache instrumentation for dalli gem
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing middleware-based Excon instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing ActiveJob instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing deferred Rack instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Rack::Builder middleware instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Rails 3+ middleware instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Rails 4 view instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Rails 4 Controller instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Installing Rails 4 Error instrumentation
+[04/05/16 00:01:42 +0200 Ubuntu-1404-trusty-64-minimal (30453)] INFO : Finished instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Starting the New Relic agent in "production" environment.
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "production" section of your newrelic.yml.
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] WARN : No configuration file found. Working directory = /root/ror/loomio
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] WARN : Looked in these locations (based on defaults): /root/ror/loomio/config/newrelic.yml, /root/ror/loomio/newrelic.yml, /root/ror/loomio/config/newrelic.yml, /root/ror/loomio/newrelic.yml, /root/.newrelic/newrelic.yml, /root/newrelic.yml
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Environment: production
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : No known dispatcher detected.
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Application: production
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'production'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing ActiveRecord 4 instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Net instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Memcache instrumentation for dalli gem
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing middleware-based Excon instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing ActiveJob instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing deferred Rack instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Rack::Builder middleware instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Rails 3+ middleware instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Rails 4 view instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Rails 4 Controller instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Installing Rails 4 Error instrumentation
+[04/05/16 17:44:00 +0200 Ubuntu-1404-trusty-64-minimal (14915)] INFO : Finished instrumentation
